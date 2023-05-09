@@ -2,12 +2,12 @@ import { Serie } from './Serie.js';
 import { series } from './data.js';
 
 let seriesTbody: HTMLElement = document.getElementById('SeriesData')!;
-const averageSeasonElm: HTMLElement = document.getElementById("AverageData")!;
+const averageSeasonInf: HTMLElement = document.getElementById("AverageData")!;
 
 
 renderSeriesInTable(series);
 
-averageSeasonElm.innerHTML = `Seasons Average: ${AverageSeasons(series)}`
+averageSeasonInf.innerHTML = `Seasons Average: ${AverageSeasons(series)}`
 
 function renderSeriesInTable(series: Serie[]): void {
 
