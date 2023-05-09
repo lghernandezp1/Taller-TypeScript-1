@@ -1,1 +1,3 @@
-# Taller-TypeScript-1
+# Taller Typescript 1
+Luisa Hernández - 202114093
+
